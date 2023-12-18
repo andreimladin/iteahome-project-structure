@@ -1,8 +1,8 @@
-package ro.iteahome.service;
+package ro.iteahome.java.basic.layered.service;
 
-import ro.iteahome.dao.UserDAO;
-import ro.iteahome.entity.User;
-import ro.iteahome.exception.InvalidCredentialsException;
+import ro.iteahome.java.basic.layered.dao.UserDAO;
+import ro.iteahome.java.basic.layered.entity.User;
+import ro.iteahome.java.basic.layered.exception.InvalidCredentialsException;
 
 public class UserService {
 

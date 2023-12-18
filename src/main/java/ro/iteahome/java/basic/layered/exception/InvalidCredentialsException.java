@@ -1,4 +1,4 @@
-package ro.iteahome.exception;
+package ro.iteahome.java.basic.layered.exception;
 
 public class InvalidCredentialsException extends Throwable {
 }

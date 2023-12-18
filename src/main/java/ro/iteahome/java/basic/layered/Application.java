@@ -1,6 +1,6 @@
-package ro.iteahome;
+package ro.iteahome.java.basic.layered;
 
-import ro.iteahome.ui.LoginUI;
+import ro.iteahome.java.basic.layered.ui.LoginUI;
 
 public class Application {
 

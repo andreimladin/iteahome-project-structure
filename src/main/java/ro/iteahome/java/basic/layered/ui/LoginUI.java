@@ -1,7 +1,7 @@
-package ro.iteahome.ui;
+package ro.iteahome.java.basic.layered.ui;
 
-import ro.iteahome.controller.UserController;
-import ro.iteahome.exception.InvalidCredentialsException;
+import ro.iteahome.java.basic.layered.controller.UserController;
+import ro.iteahome.java.basic.layered.exception.InvalidCredentialsException;
 
 import java.security.InvalidParameterException;
 import java.util.Scanner;

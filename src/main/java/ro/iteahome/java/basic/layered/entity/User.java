@@ -1,4 +1,4 @@
-package ro.iteahome.entity;
+package ro.iteahome.java.basic.layered.entity;
 
 public class User {
 
