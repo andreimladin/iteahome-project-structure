@@ -11,7 +11,7 @@ import java.util.List;
 
 public class UserDAO {
 
-    private List<User> userList = new ArrayList<>();
+    private final List<User> userList = new ArrayList<>();
 
     public UserDAO() {
         try {

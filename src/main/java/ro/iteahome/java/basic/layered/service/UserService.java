@@ -6,7 +6,7 @@ import ro.iteahome.java.basic.layered.exception.InvalidCredentialsException;
 
 public class UserService {
 
-    private UserDAO userDAO = new UserDAO();
+    private final UserDAO userDAO = new UserDAO();
 
     public void login(String username, String password) throws InvalidCredentialsException {
         for (User user : userDAO.getUserList()) {

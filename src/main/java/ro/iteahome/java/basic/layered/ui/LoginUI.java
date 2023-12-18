@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class LoginUI {
 
-    private UserController userController = new UserController();
+    private final UserController userController = new UserController();
 
     public void login() {
         boolean loginSucceeded = false;

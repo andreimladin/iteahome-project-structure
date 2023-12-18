@@ -7,7 +7,7 @@ import java.security.InvalidParameterException;
 
 public class UserController {
 
-    private UserService userService = new UserService();
+    private final UserService userService = new UserService();
 
     public void login(String username, String password) throws InvalidCredentialsException {
         if (username.length() < 6 || password.length() < 6) {
